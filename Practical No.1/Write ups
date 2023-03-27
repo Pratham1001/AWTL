@@ -1,0 +1,23 @@
+Write ups 
+1)About C#
+2) Features of C#
+3) Applications
+4) .net framework
+5) basic syntax of c# program
+6) common keywords of c#
+7) conclusion
+
+
+Q.Design UI based applications using basic windows forms controls
+
+a)WAP in C# that ask the user month ,day and 2 digit of year
+check whether month times day is equal to the year. if its is so display message saying 'month is magic' otherwise' not a magic'
+
+b)write a program to perform money conversion (at least 3)
+
+c)convert temperature form Fahrenheit to Celsius and vice versa
+
+d)Calculate age of  a person by providing DOB as input(current date and DOB should be in long string format and display the age in terms of years)
+
+ps choose windows form application 
+

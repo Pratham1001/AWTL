@@ -23,18 +23,19 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            {
-                int month = int.Parse(textBox1.Text);
-                int day = int.Parse(textBox2.Text);
-                int year = int.Parse(textBox3.Text);
-                if (month * day == year % 100)
-                {
-                    MessageBox.Show("month is magic");
-                }
+            int month = int.Parse(textBox1.Text);
+            int day = int.Parse(textBox2.Text);
+            int year = int.Parse(textBox3.Text);
 
-                else
-                { MessageBox.Show("not a magic month"); }
+            if ((month * day) == (year % 100))
+            {
+                MessageBox.Show("Month is magic");
             }
+            else
+            {
+                MessageBox.Show("Not a magic month");
+            }
+
 
         }
 
